@@ -1,5 +1,19 @@
 # 本地生活服务图片工厂
 
+当前软件版本：[1.4.4](https://github.com/eish1997/local-service-factory-releases/releases/tag/v1.4.4)
+
+[下载 Windows 安装包](https://github.com/eish1997/local-service-factory-releases/releases/download/v1.4.4/LocalServiceFactory-1.4.4-setup.exe)
+
+此版修复一张不可重试或结果不确定的图片拦住整批继续的问题。保留成功图、跳过待处理项，其余沿用原任务和预算继续；详情可展开查看原因。升级后点击“继续原任务”，无需重建同范围批次或预算。
+
+安装包 SHA256：`c9d29710b75dd1f2570f28a6878297fd9b1f90bc765c4cdad35a502e3dccc461`。软件启动时及每六小时检查更新，下载并验证后在无后台任务的退出时安装。已有任务、图片和冻结规则保留；沿用规则1790789310472053700，本次未发布新规则。
+
+Ed25519更新签名及公开下载摘要已验证；暂无Windows Authenticode发布者证书。未进行付费生图验收。
+
+## 此前分发说明（历史记录）
+
+# 本地生活服务图片工厂
+
 Windows独立版 **1.4.3**：[下载安装包](https://github.com/eish1997/local-service-factory-releases/releases/download/v1.4.3/LocalServiceFactory-1.4.3-setup.exe) · [版本说明](https://github.com/eish1997/local-service-factory-releases/releases/tag/v1.4.3)。包含独立Python和依赖。
 
 修复新版排版遗漏图片主题：详情保留本批次作业主题，三拼每格显示对应来源主题，首图不增加详情主题。使用最新18个结构模板及4个兼容预设，主题字体、颜色、描边、效果和局部底板跟随模板；电话大字居中且无底色，副服务词保留完整。当前八项目的新共享批次使用新预设；原本无副服务词表的家电和开锁只保留任务主题及电话。商务KTV的视觉生产门禁继续执行。
